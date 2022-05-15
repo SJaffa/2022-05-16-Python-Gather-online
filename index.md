@@ -15,7 +15,7 @@ startdate: 2022-05-17      # machine-readable start date for the workshop in YYY
 enddate: 2022-05-18        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Sarah Jaffa"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Rika Kobayashi (Technical organiser)", "Jiachen Dong (Technical assistant)", "Emily Kerrison", "Toby Hodges", "David Perez-Suarez", "Jeremy Cohen"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["s.jaffa@ucl.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["Rika.Kobayashi@anu.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -145,8 +145,8 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Where:</strong> This training will take place in the Virtual Winter School on Computational Chemistry space, kindly sponsored by Gather.
+  The link to access the virtual space will be sent to to the email you registered with on the Eventbrite page. If you do not receive a link please contact us at the email listed above.
 </p>
 {% endif %}
 
